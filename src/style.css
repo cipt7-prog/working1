@@ -17,6 +17,22 @@
 .grid-template-areas .now-playing {
   grid-area: now-playing;
 }
+#webcam-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 640px;
+  margin: 20px auto;
+}
+
+#webcam {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 10px;
+  border: 2px solid #1db954;
+}
+
 
 .track:hover .track-no,
 .track.selected .track-no {

@@ -19,6 +19,9 @@ const onProfileClick = (event) => {
   }
 };
 
+
+
+
 const loadUserProfile = () => {
   return new Promise(async (resolve, reject) => {
     const defaultImage = document.querySelector("#default-image");

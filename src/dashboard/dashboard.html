@@ -33,9 +33,9 @@
               <li class="flex cursor-pointer items-center gap-2 hover:text-primary">
                 <span class="material-symbols-outlined"> home </span><span></span>Home
               </li>
-              <li class="flex cursor-pointer items-center gap-2 hover:text-primary">
-                <span class="material-symbols-outlined"> search </span><span></span>Search
-              </li>
+              <li class="flex cursor-pointer items-center gap-2 hover:text-primary" onclick={navigateToCamera()}>
+                <span class="material-symbols-outlined"> camera </span>Camera
+              </li>              
             </ul>
           </section>
           <section id="user-playlists" class="w-full border-t border-secondary pt-4">
@@ -130,4 +130,9 @@
       </footer>
     </main>
   </body>
+  <script>
+    function navigateToCamera() {
+      window.location.href = "/camera/camera.html"; // Redirect to camera.html
+    }
+  </script>
 </html>

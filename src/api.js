@@ -2,8 +2,8 @@ import { ACCESS_TOKEN, EXPIRES_IN, logout, TOKEN_TYPE } from "./common";
 
 const BASE_API_URL = "https://api.spotify.com/v1";
 
-var client_id = '48392608b78e4eb9a62070cce51df2f9';
-var client_secret = '13408cb89eb546d79e6de8ee40b38f17';
+var client_id = 'f884f94c621c48948e041a497a273d25';
+var client_secret = 'd9b3574700ca462096c77ab7e65c0794';
 
 const getAccessToken = () => {
     console.debug("getAccessToken: Retrieving tokens from localStorage");

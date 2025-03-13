@@ -1,7 +1,7 @@
 import { ACCESS_TOKEN, EXPIRES_IN, TOKEN_TYPE } from "../common";
 import { APP_URL } from "../config";
 
-const CLIENT_ID = "48392608b78e4eb9a62070cce51df2f9";
+const CLIENT_ID = "f884f94c621c48948e041a497a273d25";
 console.log(CLIENT_ID);
 
 const REDIRECT_URI = `${APP_URL}/login/login.html`;
