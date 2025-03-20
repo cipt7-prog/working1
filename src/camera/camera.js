@@ -14,3 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
     console.error("Webcam not supported in this browser.");
   }
 });
+
+
+songs = {
+  "Happy": ["pop", "dance", "house", "electropop", "funk"],
+  "Sad": ["acoustic", "singer-songwriter", "folk", "blues", "sad"],
+  "Angry": ["rock", "metal", "hardcore", "punk", "heavy-metal"],
+  "Surprised": ["alternative", "experimental", "indie-pop", "dubstep"],
+  "Fearful": ["dark-ambient", "industrial", "soundtrack", "post-rock"],
+  "Disgusted": ["grunge", "garage-rock", "noise", "punk"],
+  "Neutral": ["lo-fi", "chill", "jazz", "classical", "ambient"]
+};
